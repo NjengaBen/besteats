@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className="max-w-[1630px] mx-auto flex justify-between items-center p-4">
       <div className="flex items-center">
         <div
-          className="cursor-pointer"
+          className="cursor-pointer hover:text-orange-600"
           onClick={() => {
             setNav(!nav);
           }}
@@ -39,7 +39,7 @@ const Navbar = () => {
           placeholder="Search foods"
         />
       </div>
-      <button className="bg-black text-white hidden md:flex items-center rounded-full py-2">
+      <button className="bg-black text-white hidden md:flex items-center rounded-full py-2 hover:bg-white hover:text-black">
         <BsFillCartFill size={20} className="mr-2" /> Cart
       </button>
       {nav ? (
@@ -60,32 +60,32 @@ const Navbar = () => {
             setNav(!nav);
           }}
           size={30}
-          className="absolute top-4 right-4 cursor-pointer"
+          className="absolute top-4 right-4 cursor-pointer hover:text-orange-600"
         />
         <h2 className="text-2xl p-4">
           Best <span className="font-bold">Eats</span>
         </h2>
         <nav>
           <ul className="flex flex-col p-4 text-gray-800">
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:text-orange-600">
               <TbTruckDelivery size={25} className="mr-4" /> Orders
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:text-orange-600">
               <MdFavorite size={25} className="mr-4" /> Favorites
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:text-orange-600">
               <FaWallet size={25} className="mr-4" /> Wallet
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:text-orange-600">
               <MdHelp size={25} className="mr-4" /> Help
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:text-orange-600">
               <AiFillTag size={25} className="mr-4" /> Promotions
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:text-orange-600">
               <BsFillSaveFill size={25} className="mr-4" /> Best Ones
             </li>
-            <li className="text-xl py-4 flex">
+            <li className="text-xl py-4 flex hover:text-orange-600">
               <FaUserFriends size={25} className="mr-4" /> Invite Friends
             </li>
           </ul>

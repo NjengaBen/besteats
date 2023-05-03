@@ -5,7 +5,7 @@ const HeadlineCard = () => {
         <div className="absolute w-full h-full rounded-xl bg-black/50 text-white">
           <p className="font-bold text-2xl px-2 pt-4">Suns Out, BOGOs Out</p>
           <p className="px-2">Through 8/26</p>
-          <button className="border-white bg-white text-black mx-2 absolute bottom-4">
+          <button className="border-white bg-white text-black mx-2 absolute bottom-4 hover:border-orange-600 hover:bg-orange-600 hover:text-white">
             Order Now
           </button>
         </div>
@@ -19,7 +19,7 @@ const HeadlineCard = () => {
         <div className="absolute w-full h-full rounded-xl bg-black/50 text-white">
           <p className="font-bold text-2xl px-2 pt-4">Vegan Dishes Too</p>
           <p className="px-2">At Your Convenience</p>
-          <button className="border-white bg-white text-black mx-2 absolute bottom-4">
+          <button className="border-white bg-white text-black mx-2 absolute bottom-4 hover:border-orange-600 hover:bg-orange-600 hover:text-white">
             Order Now
           </button>
         </div>
@@ -33,7 +33,7 @@ const HeadlineCard = () => {
         <div className="absolute w-full h-full rounded-xl bg-black/50 text-white">
           <p className="font-bold text-2xl px-2 pt-4">Tasty Desserts</p>
           <p className="px-2">Pocket Friendly</p>
-          <button className="border-white bg-white text-black mx-2 absolute bottom-4">
+          <button className="border-white bg-white text-black mx-2 absolute bottom-4 hover:border-orange-600 hover:bg-orange-600 hover:text-white">
             Order Now
           </button>
         </div>
